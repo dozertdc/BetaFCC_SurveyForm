@@ -11,6 +11,7 @@
 
             <div class="title-row">
                 <h1>Weightlifting Survey</h1>
+                <p>This is a survey for weightlifters</p>
             </div>
 
             <div class="form-row">
@@ -23,7 +24,7 @@
             <div class="form-row">
                 <label>
                     <span>Age</span>
-                    <input type="number" name="name" placeholder="Age" required>
+                    <input type="number" min="0" name="name" placeholder="Age" required>
                 </label>
             </div>
             
@@ -47,7 +48,7 @@
 
                     <div>
                         <label>
-                            <input id="male" type="radio" name="gender" checked="checked">
+                            <input id="male" type="radio" name="gender" checked="checked" required>
                             <span>Male</span>
                         </label>
                     </div>
@@ -58,6 +59,14 @@
                             <span>Female</span>
                         </label>
                     </div>
+                    
+                    <div>
+                        <label>
+                            <input id="other" type="radio" name="gender">
+                            <span>other</span>
+                        </label>
+                    </div>
+                    
                 </div>
             </div>
 
