@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Weightlifting Survey</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+        <form class="weightlifting-form" method="GET" action="">
+
+            <div class="title-row">
+                <h1>Weightlifting Survey</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>First and Last Name</span>
+                    <input type="text" name="name" placeholder="Name" required>
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Age</span>
+                    <input type="number" name="name" placeholder="Age" required>
+                </label>
+            </div>
+            
+             <div class="form-row">
+                <label>
+                    <span>Birthdate</span>
+                    <input type="date" name="name" required>
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Email</span>
+                    <input type="email" name="email" placeholder="email" required>
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label><span>Gender</span></label>
+                <div class="form-radio-buttons">
+
+                    <div>
+                        <label>
+                            <input id="male" type="radio" name="gender" checked="checked">
+                            <span>Male</span>
+                        </label>
+                    </div>
+
+                    <div>
+                        <label>
+                            <input id="female" type="radio" name="gender">
+                            <span>Female</span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Weight Class</span>
+                    <select name="weightclass">
+                        <option disabled value>Select an option</option>
+                        <option  value="56">56kg</option>
+                        <option value="62">62kg</option>
+                        <option value="69">69kg</option>
+                        <option value="77">77kg</option>
+                        <option value="85">85kg</option>
+                        <option value="94">94kg</option>
+                        <option value="105">105kg</option>
+                        <option value="105+">105+kg</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Any Comments or Suggestions?</span>
+                    <textarea name="comments"></textarea>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>Local</span>
+                    <input type="checkbox" name="local" checked>
+                </label>
+            </div>
+            
+            <div class="form-row">
+                <label>
+                    <span>Regional</span>
+                    <input type="checkbox" name="regional">
+                </label>
+            </div>
+
+
+            <div class="form-row">
+                <label>
+                    <span>National</span>
+                    <input type="checkbox" name="national">
+                </label>
+            </div>
+
+
+            <div class="form-row">
+                <label>
+                    <span>International</span>
+                    <input type="checkbox" name="international">
+                </label>
+            </div>
+
+
+
+            <div class="form-row">
+                <button type="submit">Submit Form</button>
+            </div>
+
+        </form>
+</body>
+</html>

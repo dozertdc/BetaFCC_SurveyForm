@@ -1,0 +1,133 @@
+body{
+    background-color: black;
+}
+
+.weightlifting-form{
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 35px;
+    background-color:  #d8d8d8;
+    font-weight: bold; 
+    font-family: sans-serif;
+    font-size:  1em;
+}
+
+.weightlifting-form .form-row{
+    text-align: left;
+    margin-bottom: 22px;
+}
+
+.weightlifting-form .title-row{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.weightlifting-form h1{
+    font-weight: bold;
+    font-size: 2em;
+    border-bottom: 2px solid black;
+}
+
+.weightlifting-form .form-row > label span{
+    display: inline-block;
+    box-sizing: border-box;
+    width: 180px;
+    text-align: right;
+    vertical-align: top;
+    padding: 12px 25px;
+}
+
+.weightlifting-form input{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 12px;
+    border: 1px solid #dbdbdb;
+}
+
+.weightlifting-form input[type=radio],
+.weightlifting-form input[type=checkbox]{
+    box-shadow: none;
+    width: auto;
+}
+
+.weightlifting-form input[type=checkbox]{
+    margin-top: 13px;
+}
+
+.weightlifting-form select{
+    background-color: #ffffff;
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    max-width: 240px;
+    padding: 12px 8px;
+    border: 1px solid #dbdbdb;
+}
+
+.weightlifting-form textarea{
+    color:  #5f5f5f;
+    box-sizing: border-box;
+    width: 240px;
+    height: 80px;
+}
+
+.weightlifting-form .form-radio-buttons{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.weightlifting-form .form-radio-buttons label span{
+    color: #5f5f5f;
+}
+
+.weightlifting-form .form-radio-buttons input{
+    width: auto;
+}
+
+.weightlifting-form button{
+    display: block;
+    background-color:  #6caee0;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 14px 22px;
+    border: 0;
+    margin: 40px 183px 0;
+}
+
+/*This is a media query to make it responsive for mobile sites*/
+
+@media (max-width: 600px) {
+
+    .weightlifting-form {
+        padding: 25px;
+        max-width: 480px;
+    }
+
+    .weightlifting-form .form-row{
+        max-width: 300px;
+        margin: 15px auto 15px auto;
+        text-align: left;
+    }
+
+    .weightlifting-form .title-row{
+        margin-bottom: 50px;
+    }
+
+    .weightlifting-form .form-row > label span{
+        display: block;
+        text-align: left;
+        padding: 0 0 15px;
+    }
+
+    .weightlifting-form select{
+        width: 240px;
+    }
+
+
+    .weightlifting-form button{
+        margin: 0;
+    }
+
+}
